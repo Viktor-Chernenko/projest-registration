@@ -1,0 +1,75 @@
+.login-page-wrapp {
+  height: 100vh;
+}
+
+.login-form-wrap {
+  width: 50%;
+}
+
+.login-form-wrap .form-card {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-form-wrap .form-card .card-title {
+  color: var(--gray);
+}
+
+.login-greeting-screen {
+  background: var(--teal);
+  width: 50%;
+  padding: 20px;
+}
+
+.form-group_city label {
+  padding-top: 1em;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  max-width: 500px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  color: var(--white);
+}
+
+.login-greeting-screen .login-greeting-screen-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.login-greeting-screen .login-greeting-screen-description {
+  line-height: 1.4;
+}
+
+.input-field {
+  margin-top: 2rem;
+}
+
+.not-Invalid {
+  border-bottom: 1px solid #ff0000 !important;
+  box-shadow: 0 1px 0 0 #ff0000 !important;
+}
+
+.not-Invalid::placeholder {
+  color: #ff0000 !important;
+}
+
+#infoBox {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+#infoBox.error {
+  background: red;
+}
+
+#infoBox.success {
+  background: green;
+}
